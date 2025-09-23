@@ -1,0 +1,7 @@
+[
+{ "text": "Hello" },
+{ "quote": "He said \"hi\"" },
+{ "backslash": "\\" },
+{ "slash": "\/" },
+{ "whitespace": "line\nbreak\tindent" },
+{ "unicode": "\u263A" }   ]
