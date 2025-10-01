@@ -1,5 +1,5 @@
 # jsonparser
-jsonparser
+
 A lightweight JSON parser written in JavaScript (Node.js).
 This project implements a custom lexer and recursive parser that validates and parses JSON data.
 
