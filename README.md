@@ -92,17 +92,17 @@ Run tests in a leaf folder (no subdirectories)
 ./run_tests.sh tests/strings
 
 📂 Project Structure
-ccjsonparser.js    # main parser implementation
-run_tests.sh       # bash test runner
+ccjsonparser.js    # Main parser implementation
+run_tests.sh       # Bash test runner
 tests/
-  step1/           # basic {} tests
-  step2/           # string keys and values
-  step3/           # booleans, null, numbers
-  objects/         # nested objects
-  arrays/          # nested arrays
-  strings/         # escape sequences and control chars
-  numbers/         # numeric edge cases
-  top-level/       # top-level literal tests
+├── step1/         # Basic {} tests
+├── step2/         # String keys and values
+├── step3/         # Booleans, null, numbers
+├── objects/       # Nested objects
+├── arrays/        # Nested arrays
+├── strings/       # Escape sequences and control characters
+├── numbers/       # Numeric edge cases
+└── top-level/     # Top-level literal tests
 
 ⚠️ Limitations
 Large numbers may lose precision 
