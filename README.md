@@ -8,12 +8,12 @@ The goal was to deeply understand how structured data formats are tokenized, val
 ✨ Features
 
 Parses all valid JSON values:
-Objects { ... }
-Arrays [ ... ]
-Strings with escape sequences (\", \\, \n, \t, \uXXXX)
-Numbers with optional decimals and exponents (0, -42, 3.14, 1e10)
-Literals: true, false, null
-Allows top-level values (JSON does not require an object/array at the top)
+- Objects { ... }
+- Arrays [ ... ]
+- Strings with escape sequences (\", \\, \n, \t, \uXXXX)
+- Numbers with optional decimals and exponents (0, -42, 3.14, 1e10)
+- Literals: true, false, null
+- Allows top-level values (JSON does not require an object/array at the top)
 Example:
 "hello"
 123
@@ -21,12 +21,12 @@ true
 null
 
 Strict validation rules:
-Rejects unescaped control characters in strings
-Rejects leading zeros in numbers (e.g., 012 ❌)
-Rejects incomplete decimals (e.g., 1. ❌)
-Rejects incomplete exponents (e.g., 1e ❌)
-Rejects trailing commas in objects/arrays
-Detects unterminated strings and invalid escapes
+- Rejects unescaped control characters in strings 
+- Rejects leading zeros in numbers (e.g., 012 ❌)
+- Rejects incomplete decimals (e.g., 1. ❌)
+- Rejects incomplete exponents (e.g., 1e ❌)
+- Rejects trailing commas in objects/arrays
+- Detects unterminated strings and invalid escapes
 
 CLI exit codes:
 0 → valid JSON
@@ -51,7 +51,7 @@ CLI exit codes:
 - Edge-case handling
 - CLI tool design with exit codes
 - Structured test coverage
-   
+
 📦 Installation
 Clone the repo:
 git clone https://github.com/romanedorrel/jsonparser.git
