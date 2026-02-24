@@ -92,6 +92,8 @@ Run tests in a leaf folder (no subdirectories)
 ./run_tests.sh tests/strings
 
 📂 Project Structure
+
+```text
 ccjsonparser.js    # Main parser implementation
 run_tests.sh       # Bash test runner
 tests/
@@ -103,6 +105,7 @@ tests/
 ├── strings/       # Escape sequences and control characters
 ├── numbers/       # Numeric edge cases
 └── top-level/     # Top-level literal tests
+```
 
 ⚠️ Limitations
 Large numbers may lose precision 
