@@ -3,6 +3,8 @@
 A lightweight JSON parser written in JavaScript (Node.js).
 This project implements a custom lexer and recursive parser that validates and parses JSON data.
 
+The goal was to deeply understand how structured data formats are tokenized, validated, and recursively interpreted.
+
 ✨ Features
 
 Parses all valid JSON values:
@@ -30,6 +32,26 @@ CLI exit codes:
 0 → valid JSON
 1 → invalid JSON
 
+🧠 How It Works
+
+1. Lexer  
+   Converts raw input into meaningful tokens (braces, brackets, strings, numbers, literals).
+
+2. Recursive Descent Parser  
+   Processes tokens according to JSON grammar rules and constructs nested structures.
+
+3. Strict Validation  
+   Enforces JSON specification rules including number formatting, escape handling, and structural correctness.
+
+💡 What This Project Demonstrates
+
+- Manual parsing and tokenization
+- Recursive algorithm implementation
+- Specification-driven validation
+- Edge-case handling
+- CLI tool design with exit codes
+- Structured test coverage
+   
 📦 Installation
 Clone the repo:
 git clone https://github.com/romanedorrel/jsonparser.git
